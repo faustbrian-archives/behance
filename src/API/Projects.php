@@ -21,7 +21,7 @@ class Projects extends AbstractAPI
     {
         $parameters = compact('q');
 
-        if (! empty($optionals)) {
+        if (!empty($optionals)) {
             $parameters = array_merge($q, $optionals);
         }
 
